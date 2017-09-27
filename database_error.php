@@ -3,7 +3,7 @@
 
 <!-- the head section -->
 <head>
-    <title>My Shop</title>
+    <title>Class Schedules</title>
     <link rel="stylesheet" type="text/css" href="main.css" />
 </head>
 
@@ -11,7 +11,7 @@
 <body>
     <div id="page">
         <div id="header">
-            <h1>My Guitar Shop</h1>
+            <h1>Class Schedules</h1>
         </div>
 
         <div id="main">

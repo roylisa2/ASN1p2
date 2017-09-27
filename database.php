@@ -2,7 +2,7 @@
     $dsn = 'localhost';
     $username = 'mgs_user';
     $password = 'pa55word';
-    $dbname = 'shopDB';
+    $dbname = 'CSU_Info_DB';
     
     // Create connection    
     $conn = new mysqli($dsn, $username, $password, $dbname);
