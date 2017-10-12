@@ -7,18 +7,19 @@
     $customers = $conn->query($query);
 ?>
 
-<!DOCTYPE html>
-<html>
+<!-- header information comes from include file -->
+    <p><?php include 'header.php'; ?></p>
 
-<!-- the head section -->
-<head>
-    <title>My Shop</title>
-    <link rel="stylesheet" type="text/css" href="main.css" />
-</head>
 
-<!-- the body section -->
-<body>
-    <div id="page">
+    <select name="list-select" id="list-select">
+     <option value="">Please select..</option>
+     <option value="tea">tea</option>
+     <option value="coffee">coffee</option>
+     <option value="water">water</option>
+</select>
+ 
+<select name="list-target" id="list-target"></select>
+
 
     <div id="header">
         <h1>Customer Manager</h1>
@@ -46,10 +47,5 @@
         </div>
     </div>
 
-    <div id="footer">
-        <p>&copy; <?php echo date("Y"); ?> My Customers, Inc.</p>
-    </div>
-
-    </div><!-- end page -->
-</body>
-</html>
+ <!-- shared footer information comes from include file -->
+    <p><?php include 'footer.php'; ?></p>
