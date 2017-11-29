@@ -1,4 +1,6 @@
 <?php
+    // Assignment 1 Part 2
+    
     $dsn = 'localhost';
     $username = 'mgs_user';
     $password = 'pa55word';

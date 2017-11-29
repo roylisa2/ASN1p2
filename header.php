@@ -1,12 +1,14 @@
 <!DOCTYPE html>
+
+<?php
+session_start();
+?>
+
 <html>
 
-<!-- the head section -->
+<!-- BEGIN the head section -->
 <head>
-    <title>My Shop</title>
+    <title>Class Schedules</title>
     <link rel="stylesheet" type="text/css" href="main.css" />
 </head>
-
-<!-- the body section -->
-<body>
-        <div id="page">
+<!-- END the head section -->
